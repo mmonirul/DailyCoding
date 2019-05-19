@@ -21,7 +21,7 @@ namespace DailyCodingProblem.ConsoleIO
             //Console.WriteLine(ss);
 
             //Solutions.Problem08.Solution.Test();
-            Solutions.Problem09.Solution.Test();
+            Solutions.Problem16.Solution.Test();
         }
     }
 }
