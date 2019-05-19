@@ -18,15 +18,29 @@ namespace DailyCodingProblem.Solutions.Problem02
         {
             var result = new int[numbers.Length];
 
-            for (int i = 0; i < result.Length; i++)
+            for (var i = 0; i < result.Length; i++)
             {
                 result[i] = 1;
-                for (int j = 0; j < result.Length; j++)
+                for (var j = 0; j < result.Length; j++)
                 {
                     if (j != i) result[i] *= numbers[j];
                 }
             }
             return result;
+        }
+
+
+        public static int GetArrayOfProducts_recursion(int[] numbers, int size, int left, int index)
+        {
+
+            if (index == size) return 1;
+            int current = numbers[index];
+
+            var right = GetArrayOfProducts_recursion(numbers, size, left * numbers[index], index + 1);
+
+            numbers[index] = left * right;
+
+            return current * right;
         }
     }
 }
