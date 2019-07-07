@@ -27,4 +27,4 @@ namespace DailyCodingProblem.Solutions.Problem16
     }
 }
 
-//TODO: More practice...and understanding 
+//TODO: More practice...

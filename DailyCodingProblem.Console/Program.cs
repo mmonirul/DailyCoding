@@ -1,5 +1,7 @@
 ﻿using System;
+using System.Collections.Generic;
 using System.Diagnostics;
+using System.Linq;
 
 namespace DailyCodingProblem.ConsoleIO
 {
@@ -21,7 +23,15 @@ namespace DailyCodingProblem.ConsoleIO
             //Console.WriteLine(ss);
 
             //Solutions.Problem08.Solution.Test();
-            Solutions.Problem16.Solution.Test();
+            //Solutions.Problem16.Solution.Test();
+
+
+            //Solutions.Problem21.MeetingRoomsRequired.Test();
+
+
+            //string[] names1 = new string[] { "Ava", "Emma", "Olivia" };
+            //string[] names2 = new string[] { "Olivia", "Sophia", "Emma" };
+            //Console.WriteLine(string.Join(", ", UniqueNames(names1, names2))); // should print Ava, Emma, Olivia, Sophia
         }
     }
 }
