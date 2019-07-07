@@ -14,16 +14,16 @@ namespace DailyCodingProblem.Solutions.Problem22
 
             var inputHashArray = new HashSet<string>(new[] {"mobile","samsung","sam","sung", "man","mango", "icecream","and", "go","i","love","ice","cream"});
 
-            var input = "iloveicecreamandmango";//Console.ReadLine();
+            const string inputString = "iloveicecreamandmango"; //Console.ReadLine();
 
-            var items = WordBreakUtil(input, inputHashArray, "");
+            var items = WordBreakUtil(inputString, inputHashArray, "");
 
             //if (dictionary == null) return;
             var hashSet = new HashSet<string>(dictionary);
 
             //var words = GetWordsFromDictionary(input, hashSet);
 
-            //Console.WriteLine(string.Join(" ", words));
+            Console.WriteLine(string.Join(" ", items));
         }
         private static IList<string> _listString = new List<string>();
 

@@ -27,11 +27,8 @@ namespace DailyCodingProblem.ConsoleIO
 
 
             //Solutions.Problem21.MeetingRoomsRequired.Test();
+            Solutions.Problem22.Solution.Test();
 
-
-            //string[] names1 = new string[] { "Ava", "Emma", "Olivia" };
-            //string[] names2 = new string[] { "Olivia", "Sophia", "Emma" };
-            //Console.WriteLine(string.Join(", ", UniqueNames(names1, names2))); // should print Ava, Emma, Olivia, Sophia
         }
     }
 }
