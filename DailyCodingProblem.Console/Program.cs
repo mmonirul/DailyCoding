@@ -27,7 +27,7 @@ namespace DailyCodingProblem.ConsoleIO
 
 
             //Solutions.Problem21.MeetingRoomsRequired.Test();
-            Solutions.Problem22.Solution.Test();
+            Solutions.Problem25.Solution.Test();
 
         }
     }
